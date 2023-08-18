@@ -9,7 +9,7 @@ lib_args = ['-DBUILDING_BITFIELD']
 shlib = library('bitfield', 'bitfield.c',
   install : true,
   c_args : lib_args,
-  gnu_symbol_visibility : 'hidden',
+  gnu_symbol_visibility : 'default',
 )
 
 # Make this library usable as a Meson subproject.

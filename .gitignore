@@ -1,2 +1,4 @@
 builddir
-libbitfield.so
+*.so
+bitfield
+file_from_go.bin
